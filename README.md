@@ -29,3 +29,38 @@ git add .
 
 git commit -m "first commit"
 
+One line update for readme
+```bash
+git add. && git commit -m "update readme.md"
+```
+
+```bash
+git remote add origin <url>
+git branch -M main
+git push origin main
+```
+
+tox command-
+```bash
+tox
+```
+
+for rebuilding-
+```bash
+tox -r
+```
+
+pytest command-
+```bash
+pytest -v
+```
+
+setup commands-
+```bash
+pip install -e .
+```
+
+building your own package commands-
+```bash
+python setup.py sdist bdist_wheel
+```
